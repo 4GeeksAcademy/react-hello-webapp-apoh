@@ -1,7 +1,7 @@
 import React, { useEffect, useContext } from "react";
 import { Link } from 'react-router-dom';
 import { Context } from "../store/appContext.js";
-import CardContact from "../component/CardContact.jsx";
+import CardContact from "../components/CardContact.jsx";
 
 const Contacts = () => {
     const { store, actions } = useContext(Context);
